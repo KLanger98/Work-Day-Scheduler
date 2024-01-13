@@ -11,7 +11,7 @@ Live Link: https://klanger98.github.io/Work-Day-Scheduler/
 To load this website follow the live link listed above. 
 
 Once the page is loaded you will be presented with the current date at the top of the page and a daily planner segmented by hours in your regular 9-5 job. 
-![Image of website blank]("./Assets/Screenshots/page-screenshot.png")
+![Image of website blank](./Assets/Screenshots/page-screenshot.png)
 
 When interacting with the hour segments you will be able to add information to the textarea and press save. This way the data will remain in that hour block when you leave and return to the website. 
 ![Image of website with blocks filled in](./Assets/Screenshots/input-screenshot.png)
