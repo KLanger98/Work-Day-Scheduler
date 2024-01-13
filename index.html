@@ -25,11 +25,19 @@
   </head>
 
   <body>
-    <header class="p-5 mb-4">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+    <header class="p-5 mb-4 d-flex justify-content-center">
+      <div class="d-flex flex-column align-items-center">
+        <h1 class="display-3">Work Day Scheduler</h1>
+        <p class="lead">A simple calendar app for scheduling your work day</p>
+        <p id="currentDay" class="lead"></p>
+        
+
+      </div>
     </header>
+    <hr class="border border-dark border-3 opacity-75">
+    <div class="container-fluid d-flex justify-content-center">
+      <p id="saveSuccessful"></p>
+    </div>
     <div class="container-fluid px-5">
       <!-- Use class for "past", "present", and "future" to apply styles to the
         time-block divs accordingly. The javascript will need to do this by
